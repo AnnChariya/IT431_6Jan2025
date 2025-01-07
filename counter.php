@@ -15,10 +15,9 @@
     test kan020
 
 main
-    $sql = "Updatee counterr sett countnumm = '$pgcount' where id = 1";
-
-    $result = 
-
-    echo "Hello";
+$sql = "Updatee counterr sett countnumm = '$pgcount' where id = 1000000"; main
+$result = 
+echo "Hello";
+branch020
 main
 ?>
