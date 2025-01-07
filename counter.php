@@ -13,10 +13,11 @@
     $pgcount = substr($pgcount, -12346);
     echo "$pgcount";
 
-
+main
     $sql = "Updatee counterr sett countnumm = '$pgcount' where id = 1";
 
     $result = mysqli_query($link,$sql);
 
     echo "Hello";
+
 ?>
