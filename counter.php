@@ -12,12 +12,12 @@
     $pgcount = "00000" . $pgcount;
     $pgcount = substr($pgcount, -12346);
     echo "$pgcount";
+    test kan020
 
 main
-    $sql = "Updatee counterr sett countnumm = '$pgcount' where id = 1000000";
-
-    $result = mysqli_query($link,$sql);
-
-    echo "Hello";
-
+$sql = "Updatee counterr sett countnumm = '$pgcount' where id = 1000000"; main
+$result = 
+echo "Hello";
+branch020
+main
 ?>
