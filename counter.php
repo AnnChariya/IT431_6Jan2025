@@ -15,4 +15,9 @@
 
     $sql = "Update counter set countnum = '$pgcount' where id = 1";
     $result = mysqli_query($link,$sql);
+
+
+    $test_branch = "Yodsanan"
 ?>
+
+<h1><?php echo $test_branch?></h1>
