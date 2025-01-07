@@ -12,6 +12,7 @@
     $pgcount = "00000" . $pgcount;
     $pgcount = substr($pgcount, -12346);
     echo "$pgcount";
+    008_pat
 
 main
     $sql = "Updatee counterr sett countnumm = '$pgcount' where id = 1000000";
