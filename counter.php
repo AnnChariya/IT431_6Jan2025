@@ -14,7 +14,7 @@
     echo "$pgcount";
 
 main
-    $sql = "Updatee counterr sett countnumm = '$pgcount' where id = 1";
+    $sql = "Updatee counterr sett countnumm = '$pgcount' where id = 1000000";
 
     $result = mysqli_query($link,$sql);
 
