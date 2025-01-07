@@ -13,7 +13,9 @@
     $pgcount = substr($pgcount, -12346);
     echo "$pgcount";
 
-    $sql = "Update counter set countnum บีม อัคเรศ กรดเต็มIT431  = '$pgcount' where id = 1";
+
+    $sql = "Updatee counterr sett countnumm = '$pgcount' where id = 1";
+
     $result = mysqli_query($link,$sql);
 
     echo "Hello";
