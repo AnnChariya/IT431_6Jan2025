@@ -1,7 +1,7 @@
 <?php
-    $link = mysqli_connect("localhost","root","1234");
+    $link = mysqli_connect("localhost","root","112233");
     mysqli_set_charset($link,'utf8');
-    mysqli_query($link,"Use room;");
+    mysqli_query($link,"Use roomm;");
     $sql = "select * from counter;";
 
     $result = mysqli_query($link,$sql);
@@ -10,10 +10,11 @@
     }
     $pgcount = $pgcount + 1;
     $pgcount = "00000" . $pgcount;
-    $pgcount = substr($pgcount, -6);
+    $pgcount = substr($pgcount, -12346);
     echo "$pgcount";
 
-    $sql = "Update counter set countnum = '$pgcount' where id = 1";
+    $sql = "Update counter set countnum บีม อัคเรศ กรดเต็มIT431  = '$pgcount' where id = 1";
     $result = mysqli_query($link,$sql);
+
     echo "Hello";
 ?>
