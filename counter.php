@@ -15,4 +15,6 @@
 
     $sql = "Update counter set countnum บีม อัคเรศ กรดเต็มIT431  = '$pgcount' where id = 1";
     $result = mysqli_query($link,$sql);
+
+    echo "Hello";
 ?>
