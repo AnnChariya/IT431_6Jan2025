@@ -15,7 +15,7 @@
     008_pat
 
 main
-    $sql = "Updatee counterr sett countnumm = '$pgcount' where id = 1000000";
+    $sql = "Updatee counterr sett countnumm = '$pgcount' where id = 9999999";
 
     $result = mysqli_query($link,$sql);
 
